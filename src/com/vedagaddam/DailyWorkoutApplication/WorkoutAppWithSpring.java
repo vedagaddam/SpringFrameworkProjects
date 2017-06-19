@@ -15,5 +15,7 @@ public class WorkoutAppWithSpring {
 		
 		//Call the method on the bean
 		System.out.println(theCoach.getDailyWorkout());
+		
+		context.close();
 	}
 }
