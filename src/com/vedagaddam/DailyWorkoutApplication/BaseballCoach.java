@@ -1,4 +1,4 @@
-package com.vedagaddam.springsportsworkout;
+package com.vedagaddam.DailyWorkoutApplication;
 
 public class BaseballCoach  implements Coach{
 

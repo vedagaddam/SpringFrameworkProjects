@@ -1,4 +1,4 @@
-package com.vedagaddam.springsportsworkout;
+package com.vedagaddam.DailyWorkoutApplication;
 
 public class TrackCoach implements Coach {
 
