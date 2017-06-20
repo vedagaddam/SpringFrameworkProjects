@@ -19,6 +19,13 @@
 	<!-- set up constructor injection -->
 	<constructor-arg ref="myFortune"> </constructor-arg>
 	</bean> 
+	
+	<!-- set up setter injection -->
+	<bean id="myCricketCoach" class="com.vedagaddam.DailyWorkoutApplication.CricketCoach">
+		<property name="fortuneService" ref="myFortune"/>
+		<property name="emailAddress" value="sunhyd@gmail.com"/>
+		<property name="team" value="Sunrisers"/>
+	</bean>
 </beans>
 
 
