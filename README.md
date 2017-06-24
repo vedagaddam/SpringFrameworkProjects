@@ -1,2 +1,1 @@
-# spring-demo-one
-Spring framework sample project
+Workout Application Using Spring framework
